@@ -1,0 +1,20 @@
+div{
+    height: 700px;
+    
+}
+
+
+
+.bg{
+     /* background-image: linear-gradient(rgba(0, 255, 255, 0.555) , rgba(255, 166, 0, 0.655) , rgba(255, 255, 0, 0.582)),url(https://picsum.photos/seed/picsum/700/500 );
+   background-image: url(https://picsum.photos/seed/picsum/1000/700 );  
+    background-repeat: no-repeat;
+   background-size:cover;
+   background-position: center;  */
+
+   background-image:  linear-gradient(rgba(128, 128, 128, 0.929), rgba(246, 241, 241, 0), rgba(71, 187, 245, 0.826) ), url(./josh-hild-wg6wb9bFnSo-unsplash.jpg);
+   background-size: cover;
+   background-repeat: no-repeat;
+   background-position: center;
+   
+}
