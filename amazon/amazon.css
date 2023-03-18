@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    width: 1400px;
+    margin: 0 auto;
+    background: lightblue;
+}
+p{
+    text-align: center;
+    font-weight: 900;
+}
+.cart1{
+    width: 24%;
+    display: inline-block;
+    /* margin: 0 auto; */
+    margin-left: 27px;
+}
+.cart1 img{
+    display: block;
+    width: 97%;
+
+}
+img{
+    width: 48%;
+}
+.cart{
+    width: 24%;
+    display: inline-block;
+}
+a{
+    text-decoration: none;
+    /* text-align: center; */
+    /* display: block; */
+}
+ul li {
+    display: block;
+    text-align: center
+}
