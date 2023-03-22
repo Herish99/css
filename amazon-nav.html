@@ -1,0 +1,407 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    
+    
+    
+    <style>
+        *{
+            margin: 0;padding: 0;
+        }
+        .navbar{
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            background-color: black;
+            color: white;
+            width: 98%;
+            margin: 0px auto;
+            padding: 5px;
+
+        }
+        .logo{
+            width: 150px;
+            /* margin: 6px; */
+        }
+        .logo img{
+            width: 100%;
+        }
+        .addr input{
+            width: 170px;
+            background-color: #f2f2f2;
+            border-radius: 5px;
+            border: none;
+            padding: 10px;
+            color: #333;
+            /* box-shadow: 0 0 5px rgba(0, 0, 0, 0.8); */
+            outline: none;
+            
+        }
+        .searchbar input{
+            /* width: 172px; */
+            /* background-color: aqua; */
+            background-color: #f2f2f2;
+            border-radius: 5px;
+            border: none;
+            padding: 10px;
+            color: #333;
+            box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+            outline: none;
+            width: 500px;
+        }
+        .lang select{
+            background-color: #f2f2f2;
+            border-radius: 5px;
+            border: none;
+            padding: 10px;
+            color: #333;
+            box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+            outline: none;
+            width: 70px;
+        }
+        .spannn{
+            /* background-color: bisque; */
+            margin: 3px;
+        }
+        button{
+            border-radius: 5px;
+            padding: 7px;
+            border: none;
+            width: 140px;
+            /* box-shadow: #333; */
+            background-color: black;
+            color: white;
+        }
+         span{
+            display: block;
+        }
+        /* ul{
+            display: flex;
+            justify-content: space-evenly;
+        } */
+
+         li{
+            list-style: none;
+            text-decoration: none;
+        }
+        a{
+            text-decoration: none;
+            color: white;
+            
+        }
+        .container{
+            width: 98%;
+            margin: 0 auto;
+            background-color: burlywood;
+        }
+        .cart{
+            display: flex;
+            background-color: antiquewhite;
+            justify-content: center;
+            align-items: center;
+        }
+        .mycart{
+            width: 24%;
+            /* display: block; */
+            /* display: flex; */
+        }
+        .imgbox{
+            width: 90%;
+            display: block;
+            
+            margin: 0 0 0 28px;
+
+        }
+         img{
+            width: 45%;
+        } 
+        h1{
+            text-align: center;
+        }
+        p {
+            text-align: center;
+        }
+        p a{
+            color: black;
+            margin-right: 17px;
+        }
+        .imgbox1{
+            width: 90%;
+            margin: 0 auto;
+
+        }
+        .imgbox1 img{
+            width: 100%;
+        }
+        
+
+    </style>
+</head>
+<body>
+
+
+
+
+
+    <div class="navbar">
+
+
+        <div class="logo">
+            <img src="./img/amazonlogo.png" alt="">
+        </div>
+        
+        
+        
+        <div class="addr">
+            <input type="text" placeholder="your address">
+        </div>
+
+
+        <div class="searchbar">
+            <input type="search" placeholder="search amazon.in"></input>
+        </div>
+
+
+        <div class="lang">
+            <select name="" id="">
+                <option value="English">English</option>
+                <option value="french">french</option>
+                <option value="spanish">spanish</option>
+                <option value="Hindi">Hindi</option>
+            </select>
+        </div>
+
+
+        <div class="spannn">
+        <button>
+            <span>Hello, Sign in</span>
+            <span>Accounts & Lists</span>
+        </button>
+        </div>
+
+
+        <div class="ord">
+        <button>
+            <span>Return</span>
+            <span>& Orders</span>
+        </button>
+        </div>
+
+
+        <div class="cart">
+            <i class="fa-solid fa-cart-shopping"></i>
+        </div>
+
+    </div>
+
+
+    <div class="navbar">
+        <!-- <ul> -->
+            <li><a href="#">Amazon mini tv</a></li>
+            <li><a href="#">sell</a></li>
+            <li><a href="#">best seller</a></li>
+            <li><a href="#">mobiles</a></li>
+            <li><a href="#">customer service</a></li>
+            <li><a href="#">todays deal</a></li>
+            <li><a href="#">electronics</a></li>
+            <li><a href="#">prime</a></li>
+            <li><a href="#">amazon pay</a></li>
+            <li><a href="#">New releases</a></li>
+            <li><a href="#">Home & Kitchen</a></li>
+        <!-- </ul> -->
+    </div>
+
+
+    <div class="container">
+        <div class="cart">
+            <div class="mycart">
+                <h1>cart1</h1>
+                <div class="imgbox">
+                    <img src="./img/images.jpeg" alt="">
+                    <img src="./img/images.jpeg" alt="">
+                    <img src="./img/images.jpeg" alt="">
+                    <img src="./img/images.jpeg" alt="">
+                    <div><p><a href="#">see more</a></p></div>
+                </div>
+            </div>
+            <div class="mycart">
+                <h1>cart1</h1>
+                <div class="imgbox">
+                    <img src="./img/images.jpeg" alt="">
+                    <img src="./img/images.jpeg" alt="">
+                    <img src="./img/images.jpeg" alt="">
+                    <img src="./img/images.jpeg" alt="">
+                    <div><p><a href="#">see more</a></p></div>
+
+                </div>
+            </div>
+            <div class="mycart">
+                <h1>cart1</h1>
+                <div class="imgbox">
+                    <img src="./img/images.jpeg" alt="">
+                    <img src="./img/images.jpeg" alt="">
+                    <img src="./img/images.jpeg" alt="">
+                    <img src="./img/images.jpeg" alt="">
+                    <div><p><a href="#">see more</a></p></div>
+
+                </div>
+            </div>
+            <div class="mycart">
+                <h1>cart1</h1>
+                <div class="imgbox">
+                    <img src="./img/images.jpeg" alt="">
+                    <img src="./img/images.jpeg" alt="">
+                    <img src="./img/images.jpeg" alt="">
+                    <img src="./img/images.jpeg" alt="">
+                    <div><p><a href="#">see more</a></p></div>
+
+                </div>
+            </div>
+        </div>
+
+    </div>
+<!-- <hr style="color: aqua;"> -->
+    <div class="container">
+        <div class="cart">
+
+
+            <div class="mycart">
+                <h1>cart2</h1>
+                <div class="imgbox1">
+                    <img src="./img/aeroplane.png" alt="">
+                </div>
+                <div><p><a href="#">see more</a></p></div>
+            </div>
+            <div class="mycart">
+                <h1>cart2</h1>
+                <div class="imgbox1">
+                    <img src="./img/aeroplane.png" alt="">
+                </div>
+                <div><p><a href="#">see more</a></p></div>
+            </div>
+            <div class="mycart">
+                <h1>cart2</h1>
+                <div class="imgbox1">
+                    <img src="./img/aeroplane.png" alt="">
+                </div>
+                <div><p><a href="#">see more</a></p></div>
+            </div>
+            <div class="mycart">
+                <h1>cart2</h1>
+                <div class="imgbox1">
+                    <img src="./img/aeroplane.png" alt="">
+                </div>
+                <div><p><a href="#">see more</a></p></div>
+            </div>
+            <div class="mycart">
+                <h1>cart2</h1>
+                <div class="imgbox1">
+                    <img src="./img/aeroplane.png" alt="">
+                </div>
+                <div><p><a href="#">see more</a></p></div>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="container">
+        <div class="cart">
+            
+            <div class="mycart">
+                <h1>cart3</h1>
+                <div class="imgbox1">
+                    <img src="./img/train.png" alt="">
+                </div>
+                <div><p><a href="#">see more</a></p></div>
+            </div>
+            <div class="mycart">
+                <h1>cart3</h1>
+                <div class="imgbox1">
+                    <img src="./img/train.png" alt="">
+                </div>
+                <div><p><a href="#">see more</a></p></div>
+            </div>
+            <div class="mycart">
+                <h1>cart3</h1>
+                <div class="imgbox1">
+                    <img src="./img/train.png" alt="">
+                </div>
+                <div><p><a href="#">see more</a></p></div>
+            </div>
+            <div class="mycart">
+                <h1>cart3</h1>
+                <div class="imgbox1">
+                    <img src="./img/train.png" alt="">
+                </div>
+                <div><p><a href="#">see more</a></p></div>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="container">
+        <div class="cart">
+
+
+            <div class="mycart">
+                <h1>cart4</h1>
+                <div class="imgbox1">
+                    <img src="./img/luggage.png" alt="">
+                </div>
+                <div><p><a href="#">see more</a></p></div>
+            </div>
+            <div class="mycart">
+                <h1>cart4</h1>
+                <div class="imgbox1">
+                    <img src="./img/luggage.png" alt="">
+                </div>
+                <div><p><a href="#">see more</a></p></div>
+            </div>
+            <div class="mycart">
+                <h1>cart4</h1>
+                <div class="imgbox1">
+                    <img src="./img/luggage.png" alt="">
+                </div>
+                <div><p><a href="#">see more</a></p></div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="cart">
+
+            <div class="mycart">
+                <h1>cart5</h1>
+                <div class="imgbox1">
+                    <img src="./img/bus.png" alt="">
+                </div>
+                <div><p><a href="#">see more</a></p></div>
+            </div>
+            <div class="mycart">
+                <h1>cart5</h1>
+                <div class="imgbox1">
+                    <img src="./img/bus.png" alt="">
+                </div>
+                <div><p><a href="#">see more</a></p></div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="cart">
+            <div class="mycart">
+                <h1>cart6</h1>
+                <div class="imgbox1">
+                    <img src="./img/amazonlogo.png" alt="">
+                </div>
+                <div><p><a href="#">see more</a></p></div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
