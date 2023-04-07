@@ -1,86 +1,104 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
-.section{
+
+.section {
     /* height: 1000px; */
-    background-color:  #fcc302;
+    background-color: #fcc302;
 }
-.head{
+
+.head {
     background-color: #daac00;
 
 }
-.container{
-    width:1300px;
-    margin: 0 auto; 
+
+.container {
+    width: 1300px;
+    margin: 0 auto;
     /* border: 2px solid; */
 }
-.row{
+
+.row {
     display: flex;
     align-items: center;
     padding: 30px;
 }
-.jcs{
+
+.jcs {
     justify-content: space-between;
-}.jce{
+}
+
+.jce {
     justify-content: space-evenly;
 }
-.padd-bottom{
+
+.padd-bottom {
     padding: 80px 0 80px 0;
 }
-.padd-top{
+
+.padd-top {
     /* padding: 80px 0 0 0; */
 }
-.link ul li{
+
+.link ul li {
     display: inline-block;
     margin: 24px;
 }
-.link a{
+
+.link a {
     text-decoration: none;
     color: white;
     font-size: 25px;
     padding: 15px;
-    
+
 }
-.searchbar{
+
+.searchbar {
     display: flex;
     /* align-items: center; */
 }
-.searchbar input{
+
+.searchbar input {
     width: 140px;
     padding: 6px;
     /* border-radius: 5px; */
     border: none;
     background-color: #fcc302;
 }
-.icon{
+
+.icon {
     /* width: 35px; */
     padding: 8px;
     /* text-align: center; */
     background-color: #00bec9;
 }
-.left{
+
+.left {
     width: 55%;
 }
-.right{
+
+.right {
     width: 45%;
 }
 
-.text{
+.text {
     margin: 40px 0;
 }
-.text h1{
+
+.text h1 {
     font-size: 67px;
     color: white;
 }
-.text h4{
+
+.text h4 {
     width: 553px;
     font-size: 29px;
     color: white;
 }
 
-.btn{
+.btn {
     margin: 20px 0;
     padding: 10px;
     border-radius: 7px;
@@ -89,18 +107,22 @@
     background-color: transparent;
     color: white;
 }
-#leftbtn{
+
+#leftbtn {
     background-color: #00bec9;
     margin: 0 20px 0 0;
     border: none;
 }
-.right .img{
+
+.right .img {
     width: 100%;
 }
-.right .img img{
+
+.right .img img {
     width: 100%;
 }
-.right .img1{
+
+.right .img1 {
     /* position: relative; */
     position: absolute;
     width: 155px;
@@ -109,45 +131,53 @@
     z-index: -1;
     width: 155px;
 }
-.relative{
+
+.relative {
     position: relative;
     top: 100px;
 }
-.img1 img{
+
+.img1 img {
     width: 100%;
 }
-.box{
+
+.box {
     /* width: 100%; */
     /* position: relative;
     top: 100px; */
 }
-.left h1{
+
+.left h1 {
     color: black;
     font-size: 50px;
     font-weight: 700;
 }
-.left p{
+
+.left p {
     width: 100%;
     font-size: 25px;
     font-weight: 400;
     margin: 30px 0;
     color: black;
 }
-.left button{
+
+.left button {
     width: 169px;
     padding: 10px;
     border-radius: 7px;
     background-color: #fcc302;
     text-align: center;
 }
-.sec3 h2{
+
+.sec3 h2 {
     font-size: 75px;
     font-weight: 700;
     text-align: center;
     color: white;
     padding: 80px 0 45px 0;
 }
-.sec3 p{
+
+.sec3 p {
     color: white;
     font-size: 33px;
     font-weight: 400;
@@ -155,31 +185,37 @@
     width: 620px;
     margin: 0 auto;
 }
-.sec3 h5{
+
+.sec3 h5 {
     text-align: center;
     font-size: 38px;
     font-weight: 600;
     color: white;
 }
-.sec3 h6{
+
+.sec3 h6 {
     text-align: center;
     font-size: 25px;
     font-weight: 400;
     color: white;
 }
-.allcart{
+
+.allcart {
     width: 30%;
 }
-.allcart img{
+
+.allcart img {
     width: 100%;
 }
-.sec4-left h1{
+
+.sec4-left h1 {
     color: black;
     font-size: 50px;
     font-weight: 700;
     text-align: right;
 }
-.sec4-left p{
+
+.sec4-left p {
     width: 100%;
     font-size: 25px;
     font-weight: 400;
@@ -187,13 +223,15 @@
     color: black;
     text-align: right;
 }
-.sec4-left button{
+
+.sec4-left button {
     width: 169px;
     padding: 10px;
     border-radius: 7px;
     background-color: #fcc302;
     text-align: center;
 }
+
 /* .allcart h5{
     text-align: center;
     font-size: 38px;
@@ -234,41 +272,47 @@
     text-align: center;
 } */
 
-.sec4 p{
-    text-align: right;
-}
-.sec4 h1{
+.sec4 p {
     text-align: right;
 }
 
-.btnn{
+.sec4 h1 {
     text-align: right;
 }
-.btn5{
+
+.btnn {
+    text-align: right;
+}
+
+.btn5 {
     text-align: center;
 }
-.btn5 button{
+
+.btn5 button {
     width: 150px;
     border-radius: 30px;
     background-color: #00bec9;
     text-align: center;
     padding: 10px;
 }
-.sec6cart h4{
+
+.sec6cart h4 {
     color: black;
     font-size: 29px;
     font-weight: 700;
     text-align: center;
 
 }
-.sec6cart h6{
+
+.sec6cart h6 {
     color: black;
     font-size: 25px;
     font-weight: 400;
     text-align: center;
 
 }
-.sec6 p{
+
+.sec6 p {
     color: black;
     font-size: 33px;
     font-weight: 400;
@@ -277,90 +321,109 @@
     margin: 0 auto;
 
 }
-.sec6 h5{
-    color:black;
+
+.sec6 h5 {
+    color: black;
     font-size: 75px;
     font-weight: 700;
     text-align: center;
     padding: 80px 0 45px 0;
 }
-.sec7 h4{
+
+.sec7 h4 {
     text-align: center;
     font-size: 42px;
     font-weight: 400;
     padding: 20px 0 10px 0;
     color: white;
 }
-.sec7-bg{
+
+.sec7-bg {
     background-image: url(./images/sec7\ bg.png);
 }
-.sec7{
+
+.sec7 {
     padding: 100px 0;
 }
-.s7img-box{
-width: 35%;
-margin: 0 auto;
+
+.s7img-box {
+    width: 35%;
+    margin: 0 auto;
 
 }
-.sec7 img{
+
+.sec7 img {
     width: 50%;
     color: black;
     display: block;
     margin: 0 auto;
 }
-.sec8 h4{
+
+.sec8 h4 {
     font-size: 25px;
     font-weight: 600;
 }
-.sec8 h3{
+
+.sec8 h3 {
     font-size: 21px;
     font-weight: 500;
     color: #00bec9;
 }
-.sec8 h6{
+
+.sec8 h6 {
     font-size: 17px;
     color: #313243;
     font-weight: 400;
 }
+
 .sec8 .date {
-    width: 100%;text-align: left;
+    width: 100%;
+    text-align: left;
     font-size: 17px;
     color: #00bec9;
     font-weight: 400;
 }
-.s8cart2{
-    filter: drop-shadow(5.634px 10.595px 25.5px rgba(74,74,74,0.1));
-background-color: #ffffff;
+
+.s8cart2 {
+    filter: drop-shadow(5.634px 10.595px 25.5px rgba(74, 74, 74, 0.1));
+    background-color: #ffffff;
 }
-.s9-bg{
+
+.s9-bg {
     background-color: #343434;
 }
-.col-25{
+
+.col-25 {
     width: 25%;
     /* border: 2px solid; */
     /* background-color: palegoldenrod; */
 }
-.col-50{
+
+.col-50 {
     width: 50%;
     /* background-color: aquamarine; */
 }
-.col-50 p{
+
+.col-50 p {
     font-size: 25px;
     color: white;
     text-align: right;
 }
- .col-50 h3{
+
+.col-50 h3 {
     font-size: 38px;
     font-weight: 600;
     color: white;
     text-align: right;
 }
-.col-25 h3{
+
+.col-25 h3 {
     font-size: 38px;
     font-weight: 600;
     color: white;
 }
-ul li{
+
+ul li {
     color: white;
     list-style: none;
     padding: 3px 0;
@@ -368,59 +431,42 @@ ul li{
     font-size: 25px;
     font-weight: 400;
 }
-.logo-list ul{
+
+.logo-list ul {
     display: block;
     text-align: right;
     margin: 10px 0 0 0;
 }
-.logo-list ul li{
+
+.logo-list ul li {
     display: inline-block;
     margin: 0 5px;
     /* text-align: right; */
 }
-.mini-box{
+
+.mini-box {
     width: 530px;
     height: 90px;
     background-color: #daac00;
     position: relative;
     right: -90px;
 }
-.icons9{
-    
+
+.icons9 {
+
     background-color: #00bec9;
     position: absolute;
     width: 144px;
     right: 0px;
 }
-.in-blk{
+
+.in-blk {
     /* display: inline-block; */
 }
-.mini-box img{
+
+.mini-box img {
     /* position: absolute; */
-padding: 29px;
-display: block;
-margin: 0 auto;
+    padding: 29px;
+    display: block;
+    margin: 0 auto;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
